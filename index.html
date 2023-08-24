@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Página de Perfil Pessoal</title>
 </head>
+
 <body>
-    
-<header></header>
-<img src="" alt=""><h1>adwdawdadawda</h1>
-<br><hr>
-<h3>213412341</h3>
-<br><hr>
-<h3>Localização</h3>
-<br><hr>
-<h2>Descrição</h2>
-<p>awdadawwdouhawduiohaduahoiudhaiou</p>
-<br><hr>
-<h3></h3>
-   <ul>
+
+    <header>
+        <img src="img/images-600x377.png" alt="">
+        <h1>Nome:**********************</h1>
+        <h3>Idade:**</h3>
+        <br>
+    </header>
+    <br>
+    <hr>
+    <h2>Localização</h2>
+    <br>
+    <hr>
+    <h2>Descrição</h2>
+    <p>awdadawwdouhawduiohaduahoiudhaiou</p>
+    <br>
+    <hr>
+    <h2>Hobbies</h2>
+    <ul>
         <li></li>
         <li></li>
     </ul>
@@ -28,22 +35,22 @@
 
 <script>
 
-    
+
     document.addEventListener("DOMContentLoaded", function (event) {
-            if ('serviceWorker' in navigator) {
-                console.log('has serviceworker');
-                window.addEventListener('load', () => {
-                    navigator.serviceWorker.register('serviceWorker.js')
-                        .then((registration) => {
-                            console.log('Service worker registered.', registration);
-                        });
-                });
-            }
-            else {
-                console.log("Your browser not supports serviceWorkers");
-            }
-        });
-    
-    </script>    
+        if ('serviceWorker' in navigator) {
+            console.log('has serviceworker');
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('serviceWorker.js')
+                    .then((registration) => {
+                        console.log('Service worker registered.', registration);
+                    });
+            });
+        }
+        else {
+            console.log("Your browser not supports serviceWorkers");
+        }
+    });
+
+</script>
 
 </html>
