@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head> 
+    <link rel="manifest" href="./manifest.webmanifest">
     <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="mobile-web-app-capable" />
+    <meta name="appler-mobile-web-app-status-bar" content="#aa7700" />
+    <meta name="theme-color" content="black" />
+    <meta rel="apple-mobile-icon" href="assets/logos/WM_120x120.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
     <title>Página de Perfil Pessoal</title>
 </head>
 
 <body>
-
     <header>
         <img src="img/images.png" class="anonimo" height="200px" width="200px">
         <h1>Nome:**********************</h1>
         <h1>Idade:**</h1>
-
     </header>
     <br>
     <hr>
@@ -54,7 +59,6 @@
 </body>
 
 <script>
-
 
     document.addEventListener("DOMContentLoaded", function (event) {
         if ('serviceWorker' in navigator) {
