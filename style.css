@@ -8,11 +8,11 @@ body{
 
 hr{
     align-items: center;
-    width: 100px;
+    width: 5%;
 }
 
 p{
-    padding: 20px;
+    padding: 2%;
     align-items: center;
 }
 
@@ -38,12 +38,12 @@ h2{
 
 .anonimo{
     border-radius: 50%;
-    padding: 20px;
+    padding: 2%;
 }
 
 .mapa{
-    border-radius: 10px;
-    margin: 20px;
+    border-radius: 5%;
+    margin: 2%;
 }
 
 ul li{

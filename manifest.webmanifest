@@ -1,5 +1,5 @@
 {
-    "name": "Aplicativo PWA",
+    "name": "Página de Perfil Pessoal",
     "short_name": "APWA",
     "icons": [
         {
@@ -34,7 +34,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/novotec-senac/PagDePerfilPessoal/index.html",
+    "start_url": "https://WillianMSdS.github.io/Página de Perfil Pessoal/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#199332"
