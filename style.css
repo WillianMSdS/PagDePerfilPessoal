@@ -1,17 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body{
-    margin: 0 auto;
+    margin: 0 auto ;
     align-items: center;
-    text-align: center;
-    font-family: Kanit;
+    font-family: Quicksand;
+}
+
+hr{
+    align-items: center;
+    width: 100px;
+}
+
+p{
+    padding: 20px;
+    align-items: center;
 }
 
 header{
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
-header.img{
-    border-radius: 50px;
+.Local{
+    display:grid;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.anonimo{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.mapa{
+    border-radius: 10px;
+    margin: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
