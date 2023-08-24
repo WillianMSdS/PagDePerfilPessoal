@@ -11,3 +11,7 @@ header{
     background-color: black;
     color: white;
 }
+
+header.img{
+    border-radius: 50px;
+}
